@@ -29,34 +29,28 @@ nav a:hover{
     }
 .home1 {
     background-image: url("../image/ds1.jpg");
-    height: 100vh;
-    width: 100vw;
-    background-repeat:no-repeat;
-    background-size:cover;
 }
 .about1 {
     background-image: url("../image/aldgrave.webp");
-    height: 100vh;
-    width: 100vw;
-    background-repeat:no-repeat;
-    background-size:cover;
     }
 .tickets1 {
     background-image: url("../image/ds3.jpeg");
-    height: 100vh;
-    width: 100vw;
-    background-repeat:no-repeat;
-    background-size:cover;
     }
 .feature { 
     position: absolute;
-    height: 100vh;
-    width: 100vw;
-    left: 3rem;
+    top:auto;
+    left:auto;
     color: #fff;
     display:flex;
     flex-direction: column;
     gap: .9rem;
+}
+.container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-repeat:no-repeat;
+    background-size:cover;    
 }
 .ln1{
     margin-top:0;
@@ -85,16 +79,16 @@ nav a:hover{
     padding:1rem 2rem;
     text-decoration:none;
     }
-.more a:hover{
+div a{
         margin-top:1.2rem;
         display:inline-block;
         max-width:200px;
         text-transform:uppercase;
-        font-weight:700;
+        font-weight:900;
         font-size:1.2rem;
         letter-spacing:.1rem;
         opacity:1;color:#fff;
-        border:2px solid white;
+        border:2px solid rgb(147, 45, 45);
         padding:1rem 2rem;
         text-decoration:none;
     }
