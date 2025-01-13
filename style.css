@@ -38,8 +38,8 @@ nav a:hover{
     }
 .feature { 
     position: absolute;
-    top:auto;
-    left:auto;
+    top:200px;
+    left:50px;
     color: #fff;
     display:flex;
     flex-direction: column;
@@ -48,7 +48,6 @@ nav a:hover{
 .container {
     position: relative;
     height: 100vh;
-    width: 100vw;
     background-repeat:no-repeat;
     background-size:cover;    
 }
